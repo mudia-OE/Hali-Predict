@@ -33,7 +33,7 @@ Applied regression analysis to model statistical performance using historical pl
 ### 4. Model Evaluation
 Evaluated predictive performance using mean absolute error (MAE), which measures the average absolute difference between predicted and actual values.
 
-**Reported MAE: approximately 2.61** on the evaluated data.
+**Reported MAE: approximately 1.67** on the evaluated data.
 
 *Note: The exact prediction target, units, evaluation procedure, and test-set setup should be documented alongside the final model results.*
 
@@ -68,10 +68,8 @@ The project also highlights an important limitation of sports prediction: indivi
 ```text
 hali-predict/
 ├── README.md
-├── data/             # Dataset files, if permitted to share
-├── notebooks/        # Exploratory analysis, if applicable
-├── src/              # Analysis and modelling scripts
-└── requirements.txt  # Python dependencies
+├── achilles_dataset/             # Dataset files
+├── train_haliburton_model.py/              # Analysis and modelling scripts
 ```
 
 *Adjust this structure to match the actual repository.*
@@ -91,6 +89,6 @@ Hali Predict is an independent sports analytics project exploring the intersecti
 
 ---
 
-**Author:** [Your Name]  
+**Author:** Divine Osas-Egbe  
 **Project:** Hali Predict  
 **Focus:** NBA Analytics · Regression · Sports Data Science
